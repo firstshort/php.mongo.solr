@@ -22,11 +22,17 @@ mongodb:
 solr:
     install: '1'
     port: '8983'
-    version: 5.2.0
+#    version: 5.2.0
+    version: 5.5.4
     cloud_mode: '0'
 php:
     install: '1'
     ppa: php5-oldstable
-    packages: [php5-cli, php5-intl, php5-mcrypt, php5-mysql, php5-mongo]
-    peclpackages: [mongo, mysql]
+    packages:
+      - php5-cli
+      - php5-intl
+      - php5-mcrypt
+      - php5-mysql
+      - php5-mongo
+    peclpackages: ['mongo', 'mysql']
 

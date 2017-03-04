@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  sudo: true
+  become: true
   vars_files:
     - vars/all.yml
   roles:
@@ -9,6 +9,6 @@
     - nginx
     - mysql
     - mongodb
-#    - solr
+    - solr
     - php
     - app
