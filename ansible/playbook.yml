@@ -9,6 +9,6 @@
     - nginx
     - mysql
     - mongodb
-    - solr
+#    - solr
     - php
     - app
