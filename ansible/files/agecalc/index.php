@@ -3,8 +3,8 @@
 	require_once('helpers/common.php');
 
 	//start processing form data, if present
-	if (($name = post('username')) && ($age = post('age'))) {
-		$result = age_in_seconds();
+	if (($name = check_post_value('username')) && ($age = check_post_value('age'))) {
+		$result = age_in_seconds($age);
 	}
 
 	?>
