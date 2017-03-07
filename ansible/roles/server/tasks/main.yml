@@ -10,6 +10,9 @@
     - curl
     - wget
     - python-software-properties
+    - libcurl4-gnutls-dev
+    - libxml2-dev
+    - libpcre3-dev
 
 - name: Install Extra Packages
   become: yes

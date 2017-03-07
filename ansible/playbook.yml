@@ -4,11 +4,11 @@
   vars_files:
     - vars/all.yml
   roles:
-    - server
-    - vagrant_local
-    - nginx
-    - mysql
-    - mongodb
-    - solr
+#    - server
+#    - vagrant_local
+#   - nginx
+#    - mysql
+#    - mongodb
+#    - solr
     - php
     - app
